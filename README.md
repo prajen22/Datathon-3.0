@@ -97,7 +97,7 @@ Because UART hardware is optional in Level-1, frames are piped into Python:
 If Python is installed at a specific Windows path:
 
 ```bash
-./telemetry_tx | /c/Users/praje/AppData/Local/Programs/Python/Python311/python.exe uart_rx.py
+./telemetry_tx | ./telemetry_tx | <python_path> uart_rx.py
 ```
 
 This will:
