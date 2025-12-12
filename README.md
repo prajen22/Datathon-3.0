@@ -1,6 +1,6 @@
 # AIRMAN – Level 1 Telemetry Pipeline  
 **Author:** Prajen  
-**Role:** Embedded/Firmware Developer – Technical Assessment (Level 1)  
+**Role:** Embedded developer – Technical Assessment (Level 1)  
 **Submission:** Telemetry generation + UART-style frame encoding + Python receiver
 
 ---
