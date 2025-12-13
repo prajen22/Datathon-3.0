@@ -92,8 +92,8 @@ level2/
 
 ---
 
-
-## 📈 Performance
+---
+### 📈 Performance
 Telemetry rate: 20 Hz (exceeds ≥10 Hz requirement)
 
 AHRS stability: Smooth roll, pitch, and heading outputs
