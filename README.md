@@ -83,8 +83,9 @@ The receiver behaves like a **lightweight Ground Control Station (GCS)** used du
 ```
 level1/
 │
-├── telemetry_tx.c        # C source for telemetry generator
-├── uart_rx.py            # Python receiver script
+├── ahrs_filter.c         # C source for telemetry generator
+├── plot_live.py          # Python receiver script
+├── dash.py               #dashboard
 ├── output.csv            # Generated during execution
 └── README.md             # Documentation (this file)
 ```
