@@ -80,19 +80,18 @@ The receiver behaves like a **lightweight Ground Control Station (GCS)** used du
 
 ## 📁 File Structure
 
-```yaml
-level2/
+```
+level1/
 │
-├── ahrs.c / ahrs_filter.c # Madgwick AHRS implementation
-├── telemetry_tx_level2.c # Level-2 telemetry transmitter (C)
-├── uart_rx_level2_logger.py # Python telemetry receiver & CSV logger
-├── plot_live.py # Real-time AHRS visualization
-├── level2_telemetry.csv # Generated flight log
-└── README.md # Documentation (this file)
+├── telemetry_tx.c        # C source for telemetry generator
+├── uart_rx.py            # Python receiver script
+├── output.csv            # Generated during execution
+└── README.md             # Documentation (this file)
+```
 
 ---
 
----
+
 ## 📈 Performance
 
 - **Telemetry rate:** 20 Hz (exceeds ≥10 Hz requirement)  
