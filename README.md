@@ -143,5 +143,5 @@ Design emphasizes clarity, modularity, and real-world firmware style
 
 Visualization and logging mirror real ground-station workflows
 
-## 🚀 Final Status
+### 🚀 Final Status
 Level 2 implementation: COMPLETE AHRS computation, enhanced telemetry protocol, logging, and real-time visualization are all implemented and functional.
